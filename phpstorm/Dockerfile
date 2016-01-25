@@ -8,4 +8,4 @@ ENV PHPSTORM_URL https://d1opms6zj7jotq.cloudfront.net/webide
 RUN curl -SLO "${PHPSTORM_URL}/PhpStorm-${PHPSTORM_VERSION}.tar.gz" && \
     tar -xzf "PhpStorm-${PHPSTORM_VERSION}.tar.gz"
 
-ENTRYPOINT ["PhpStorm-$PHPSTORM_BUILD/bin/phpstorm.sh"]
+ENTRYPOINT ["PhpStorm-143.1770/bin/phpstorm.sh"]
